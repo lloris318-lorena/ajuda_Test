@@ -1,28 +1,28 @@
-body{
+body {
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-header { 
-    display: flex; 
-    padding: 25px 16px; 
-    background-color: #254C73; 
+header {
+    display: flex;
+    padding: 25px 16px;
+    background-color: #254C73;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     box-sizing: border-box;
-} 
+}
 
-.titulo-header{
+.titulo-header {
     font-family: "Alumni Sans SC", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
     font-size: 25px;
-    color: #EAEAEA; 
+    color: #EAEAEA;
     margin-left: 15px;
 }
 
@@ -34,7 +34,7 @@ header {
 }
 
 
-.hero-menu{
+.hero-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,13 +46,13 @@ header {
     line-height: 1;
 }
 
-.menu{
+.menu {
     display: flex;
     margin-right: 15px;
     gap: 15px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #EAEAEA;
     gap: 15px;
@@ -61,11 +61,11 @@ a{
     font-style: normal;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: #EAEAEA;
     text-decoration: none;
@@ -76,22 +76,22 @@ a{
     font-style: normal;
 }
 
-  .hero-banner {
+.hero-banner {
     min-height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/oferecer-suporte-emocional-2-1024x684.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
 .container {
     display: flex;
     width: 100%;
     height: 100vh;
     flex-direction: column;
-  }
+}
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,3 +108,33 @@ a{
     letter-spacing: 4px;
 }
 
+.icon {
+    width: 222px;
+    height: 222px;
+}
+
+.card {
+    color: black;
+    border-radius: 20px;
+}
+
+.txt {
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.titulo{
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: bold;
+}
+
+.paragrafo{
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
