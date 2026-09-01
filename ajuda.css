@@ -109,7 +109,7 @@ a {
 
 .ajuda {
     width: 100%;
-    padding: 30px;
+    padding-top: 20px;
 }
 
 .cards {
@@ -120,12 +120,12 @@ a {
 }
 
 .card {
-    width: 210px;
-    min-height: 430px;
+    width: 250px;
+    min-height: 680px;
     background: white;
     border: 1px solid #bdbdbd;
     border-radius: 20px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .icone {
@@ -154,7 +154,7 @@ a {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 6px;
 }
 
@@ -163,18 +163,18 @@ a {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 15px;
     color: #333;
 }
 
-.mapa{
+.mapa {
     font-family: "Afacad", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 15px;
     color: #bdbdbd;
